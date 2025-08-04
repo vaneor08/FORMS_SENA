@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Sena V1</title>
+</head>
+<body>
+    <h1>Formulario Sena V1</h1>
+    <h3>Gracias por dejar sus datos</h3>
+    <form id = "formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="Correo">Correo:</label>
+        <input type="text" id="Correo" name="Correo"><br>
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad"><br>
+        <label for="text">Elija una opcion:</label>
+        <select id="opcion1" name="opcion">
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+        </select>
+        <br>
+        <label for="text">¿Plane comprar carro dentro de los proximos 5 años?</label><br>
+        <label><input type="radio" name="respuesta" value="si"> Si</label><br>
+        <label><input type="radio" name="respuesta" value="no"> No</label><br>
+        <label><input type="radio" name="respuesta" value="tal vez"> Tal vez</label><br
+        <label for="text">¿Cual es su marca favorita de carro?</label> 
+        <select id="opcion2" name="opcion">
+            <option value="1">Chevrolet</option>
+            <option value="2">Renault</option>
+            <option value="3">BMW</option>
+            <option value="4">Mercedes</option>
+            <option value="5">Audi</option>
+        </select>
+        <br>
+        <label for="text">¿Cual es su metodo de transporte?</label>
+        <label><input type="radio" name="respuesta" value="carro"> Carro</label><br>
+        <label><input type="radio" name="respuesta" value="barco"> Barco</label><br>
+        <label><input type="radio" name="respuesta" value="bicicleta"> Bicicleta</label><br>
+        <label><input type="radio" name="respuesta" value="moto"> Moto</label><br>
+        <label><input type="radio" name="respuesta" value="avion"> Avion</label><br>
+        <label for="comentario">algun comentario o sugerencia</label>
+        <textarea id="comentario" name="comentario" cols="40" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+</body>
+</html>
